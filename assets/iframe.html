@@ -1,0 +1,45 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- http://garden.zendesk.com -->
+  <link rel="stylesheet" href="https://assets.zendesk.com/apps/sdk-assets/css/1/zendesk_garden.css" type="text/css">
+</head>
+<head>
+  <link href="https://cdn.jsdelivr.net/bootstrap/2.3.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="main.css" rel="stylesheet">
+</head>
+
+<body>
+  <div id="content"></div>
+  <script id="error-template" type="text/x-handlebars-template">
+    <p>{{status}} - {{statusText}} error. Data not found.</p>
+  </script>
+
+  <footer>
+  	<button id="detailsBtn">Details</button>
+  </footer>
+
+  <!-- https://github.com/zendesk/zendesk_app_framework_sdk -->
+  <script id="requester-template" type="text/x-handlebars-template">
+    <table>
+    <tr>
+      <td><strong>Full Name:</strong></td>
+      <td class="data">{{name}}</td>
+    </tr>
+    <tr>
+      <td><strong>Email:</strong></td>
+      <td class="data">{{email}}</td>
+    </tr>
+    <tr>
+      <td><strong>Telephone No:</strong></td>
+      <td class="data">{{numtelp}}</td>
+    </tr>
+    </table>
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+  <script type="text/javascript" src="https://assets.zendesk.com/apps/sdk/2.0/zaf_sdk.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery/3.0.0/jquery.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>

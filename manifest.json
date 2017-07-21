@@ -1,0 +1,17 @@
+{
+  "name": "Contact Information",
+  "author": {
+    "name": "Marvin Cangcianno",
+    "email": "marvincang@hotmail.com",
+    "url": ""
+  },
+  "defaultLocale": "en",
+  "private": true,
+  "location": { "zendesk":
+    { "ticket_sidebar": "assets/iframe.html",
+      "modal": "assets/modal.html"
+    }
+  },
+  "version": "1.0",
+  "frameworkVersion": "2.0"
+}

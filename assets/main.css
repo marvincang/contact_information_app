@@ -1,0 +1,34 @@
+footer {
+	padding-top: 20px;
+	text-align: right;
+}
+
+button {
+  background-color: white;
+  color: black;
+  font-size: 12px;
+	border: 2px solid #1376AD;
+	border-radius: 4px;
+	padding: 4px 14px;
+	transition-duration: 0.4s;
+}
+
+button:hover {
+	background-color: #1376AD;
+	color: white;
+}
+
+.data {
+	color: #000;
+	padding-left: 6px;
+}
+
+#content td {
+	font-size: 13px;
+	padding-top: 5px;
+}
+
+#contentmodal td {
+	font-size: 14px;
+	padding-top: 5px;
+}
